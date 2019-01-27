@@ -64,7 +64,7 @@ public class Kermis {
 					
 				} else if ( genomenKeuzeAttractie.equals("o") ) {
 					Centralekassa kassa = new Centralekassa();
-					System.out.println("De totale omzet van de kermis is op dit moment: " + kassa.getTotaleOmzetKermis() + " euro." );
+					kassaOmzet();
 					
 				} else if ( genomenKeuzeAttractie.equals("k") ) {
 					kaartVerkoop();
